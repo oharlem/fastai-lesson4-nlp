@@ -1,7 +1,11 @@
 name: fl3-kaggle
 channels:
+  - huggingface
+  - conda-forge
   - defaults
 dependencies:
   - python=3.12.4
   - jupyterlab
   - pandas
+  - datasets
+  - ipywidgets
