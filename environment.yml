@@ -1,0 +1,7 @@
+name: fl3-kaggle
+channels:
+  - defaults
+dependencies:
+  - python=3.12.4
+  - jupyterlab
+  - pandas
