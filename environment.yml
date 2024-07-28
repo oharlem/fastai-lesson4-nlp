@@ -1,6 +1,7 @@
 name: fl3-kaggle
 channels:
   - huggingface
+  - pytorch
   - conda-forge
   - defaults
 dependencies:
@@ -9,3 +10,7 @@ dependencies:
   - pandas
   - datasets
   - ipywidgets
+  - pytorch
+  - torchvision
+  - sentencepiece
+  - transformers
